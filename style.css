@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+button {
+    font-size: 200px;
+}
+
+.result {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 500px;
+    align-self: flex-start;
+}
+
+.final {
+    color: red;
+}
+
+.hidden {
+    visibility: hidden;
+}
